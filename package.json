@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": " project related to backend series ",
   "main": "index.js",
+  "type": "module.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "chai",
@@ -12,5 +13,8 @@
     "java"
   ],
   "author": "MOHAMMAD TARIQ",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
